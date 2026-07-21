@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gianni &amp; Maricielo — Tres meses</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💌</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600&family=Newsreader:ital,wght@0,400;0,500;1,400;1,500&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="petals" id="petals" aria-hidden="true"></div>
+
+<main class="hero">
+  <p class="eyebrow">21 de abril &nbsp;—&nbsp; 21 de julio</p>
+
+  <h1 class="counter">
+    <span class="counter-number">3</span>
+    <span class="counter-label">meses<br>juntos</span>
+  </h1>
+
+  <p class="names">Gianni <span class="amp">&amp;</span> Maricielo</p>
+
+  <div class="envelope" id="envelope" tabindex="0" role="button" aria-label="Abrir la carta">
+    <div class="envelope-body"></div>
+    <div class="envelope-letter-peek"></div>
+    <div class="envelope-flap">
+      <div class="wax-seal">G&amp;M</div>
+    </div>
+  </div>
+  <p class="hint">Toca el sobre para abrir la carta</p>
+</main>
+
+<div class="overlay" id="overlay">
+  <div class="letter" id="letter">
+    <button class="close-btn" id="closeBtn" aria-label="Cerrar carta">&times;</button>
+
+    <p class="letter-date">21 de julio, 2026</p>
+    <p class="letter-greeting">Mi Polola,</p>
+    <div class="letter-photo">
+  <img src="foto.jpeg" alt="Gianni y Maricielo">
+</div>
+
+    <div class="letter-body">
+      <p>Hoy se cumplen tres meses desde que decidimos caminar juntos, y quiero que sepas todo lo que has significado para mí en este tiempo tan corto pero tan intenso. Han sido apenas noventa días, pero contigo el tiempo se siente distinto: cada mensaje, cada risa compartida, cada abrazo fuerte y cada momento a tu lado se ha ido guardando en un lugar muy especial dentro de mí. Aprendí que no hace falta que pase mucho tiempo para que alguien se vuelva imprescindible, solo hizo falta que fueras tú.</p>
+      <p>Han sido apenas noventa días, pero contigo el tiempo se siente distinto: cada mensaje, cada risa compartida, cada silencio cómodo a tu lado se ha ido guardando en un lugar special dentro de mí.</p>
+      <p>Gracias por tu paciencia, por tu forma de ver la vida, por elegirme cada día, así como yo te elijo a ti. Ten por seguro que mi corazón está completamente lleno de amor por ti y que mis acciones siempre buscarán cuidarte, protegerte y hacerte la mujer más feliz del mundo siempre.</p>
+      <p>Sé que esto recién comienza, y aunque no puedo prometerte que todo será perfecto, sí te prometo que voy a poner siempre lo mejor de mí para que sigamos construyendo este futuro hermoso que planeamos juntos. Eres mi reina, mi absoluta prioridad y el lugar donde siempre quiero estar.</p>
+      <p class="letter-closing">Feliz tres meses mi amor. Que este día sea hermoso para los dos y recuerda siempre que te amo con todas mis fuerzas hoy y siempre. Que sean muchísimos meses más caminando juntos de la mano.</p>
+    </div>
+
+    <p class="letter-sign">Con todo mi cariño,<br><span class="letter-name">Gianni</span></p>
+  </div>
+</div>
+
+<button class="music-toggle" id="musicToggle" aria-label="Reproducir música" aria-pressed="false">
+  <svg id="musicIcon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M9 18V5l12-2v13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="6" cy="18" r="3" stroke="currentColor" stroke-width="1.5"/>
+    <circle cx="18" cy="16" r="3" stroke="currentColor" stroke-width="1.5"/>
+  </svg>
+</button>
+<audio autoplay id="bgMusic" loop preload="none">
+  <source src="musica.mp3" type="audio/mpeg">
+</audio>
+
+<footer class="footer">Gianni &amp; Maricielo · 21 de abril de 2026</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
